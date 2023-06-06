@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content
+{
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    width: 90%;
+    margin: 20px auto; 
+}
+.left-section
+{
+    background-color: #372d3af5;
+}
+.right-section
+{
+    background-color: rgba(151, 188, 236, 0.749);
+}
